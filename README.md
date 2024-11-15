@@ -15,8 +15,8 @@ git clone https://github.com/montasirazad/softnio-task
 1. cd html-version
 
 2. Just run the index.html file with Visual Studio Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-
-<br>
+   <br>
+   Live link of html version:https://bejewelled-paprenjak-d3eca5.netlify.app/
 
 ### For React version
 
@@ -34,4 +34,4 @@ npm i
 npm run dev
 ```
 
-Live link: https://spontaneous-souffle-247c4e.netlify.app/
+Live link of React version: https://spontaneous-souffle-247c4e.netlify.app/
