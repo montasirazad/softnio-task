@@ -17,3 +17,16 @@ git clone https://github.com/montasirazad/softnio-task
 2. Just run the index.html file with Visual Studio Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 <br>
+
+### For React version
+
+1. cd softnio-task-react
+2. run these commands in your terminal
+
+3. ```sh
+npm i
+```
+
+4. ```sh
+npm run dev
+```
