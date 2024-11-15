@@ -34,4 +34,4 @@ npm i
 npm run dev
 ```
 
- [([Live link:](https://spontaneous-souffle-247c4e.netlify.app/))]
+Live link: https://spontaneous-souffle-247c4e.netlify.app/
