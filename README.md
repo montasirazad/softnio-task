@@ -20,8 +20,11 @@ git clone https://github.com/montasirazad/softnio-task
 
 ### For React version
 
-1. cd softnio-task-react
-2. run these commands in your terminal
+Run these commands in your terminal
+
+```sh
+cd softnio-task-react
+```
 
 ```sh
 npm i
