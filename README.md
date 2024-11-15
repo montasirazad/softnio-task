@@ -2,7 +2,7 @@
 
 ## How to run
 
-## For html version
+### For html version
 
 Please follow the below instructions:
 
