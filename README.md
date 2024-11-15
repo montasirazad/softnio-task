@@ -1,5 +1,7 @@
 # Assignment For Front-End Engineer – Fresher
 
+### Any external css library or framework is not used in both version.
+
 ## How to run
 
 First Login to the GitHub account to access this repository.

@@ -1,5 +1,7 @@
 # Assignment For Front-End Engineer – Fresher
 
+### Any external library is not used
+
 ## How to run
 
 First Login to the GitHub account to access this repository.
@@ -28,3 +30,5 @@ npm run dev
 ```
 
 Live link of React version: https://spontaneous-souffle-247c4e.netlify.app/
+
+
