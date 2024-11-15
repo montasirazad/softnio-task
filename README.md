@@ -1,8 +1,8 @@
 # Assignment For Front-End Engineer – Fresher
 
-### Assignment specification
 
-Any external css library or framework is not used in both version.
+
+### Any external css library or framework is not used in html and react version of this.
 
 ## How to run
 
@@ -21,9 +21,9 @@ cd html-version
 
 ```
 
-Just run the index.html file with Visual Studio Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+Just run the index.html file with Visual Studio Code using Live Server.  [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-Live link of html version:https://bejewelled-paprenjak-d3eca5.netlify.app/
+Live link of html version: https://bejewelled-paprenjak-d3eca5.netlify.app/
 
 ### For React version
 
