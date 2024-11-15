@@ -12,11 +12,14 @@ git clone https://github.com/montasirazad/softnio-task
 
 ### For html version
 
-1. cd html-version
+```sh
+cd html-version
 
-2. Just run the index.html file with Visual Studio Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-   <br>
-   Live link of html version:https://bejewelled-paprenjak-d3eca5.netlify.app/
+```
+
+Just run the index.html file with Visual Studio Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+
+Live link of html version:https://bejewelled-paprenjak-d3eca5.netlify.app/
 
 ### For React version
 
