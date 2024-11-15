@@ -2,7 +2,7 @@
 
 ### Assignment specification
 
-<span style='color:"red";background-color:"lightblue"'>Any external css library or framework is not used in both version.</span>
+Any external css library or framework is not used in both version.
 
 ## How to run
 
