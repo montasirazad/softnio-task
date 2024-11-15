@@ -1,0 +1,175 @@
+/******** Booking section start ********/
+
+.booking-container {
+  background: url("https://s3-alpha-sig.figma.com/img/5a88/989c/f8e8eeffdc29691099a68fb261320bfa?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YWv7uc9~~bfu15JHXiJiqB5qxpZll7dzsfqSfksnVBQFDWKwla3saGeC00KSajhAfp31R-h0Hae8m1A1UwV9BM4jLwOYYhaQS9jYNfUxKgNRm0s30yMqimVLBjV4cPeBNq488929t52B3StMaem9D9De5JhUC4kkt4VkCFsf2tKeBV-IO59EflMgQyqcz8POUdO8Vi8kIbD~cRNqQvTK67JbRU65jR~y-991YxV0B6dnxNfoVUJRdNPxLLuop2m0omK5Kn4ovb3SfHVLPlu2SRQds19wxZNZPHUTTYVR1TBmBb6f4Q~-V-XWC-3kBUVrKW~~WOZres56AQe1IMkCYQ__");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+  margin-bottom: 50px;
+  /* margin-top: 25px; */
+  /* border: 1px solid orangered; */
+}
+
+.booking-container-main {
+  margin-left: 18%;
+  margin-top: 5%;
+  padding: 10px;
+  display: grid;
+  position: absolute;
+
+  row-gap: 18px;
+  /* border: 1px solid yellow; */
+  width: auto;
+}
+.book-now-info {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #bd1f17;
+  font-family: "Roboto", sans-serif;
+  /* margin: 20px; */
+}
+.book-now {
+  width: 10px;
+  height: 10px;
+  background-color: #bd1f17;
+  font-family: "Roboto", sans-serif;
+}
+.booking-info {
+  font-family: "Bebas Neue", serif;
+  color: white;
+  font-size: larger;
+  font-weight: 300;
+}
+.booking-info p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+form {
+  /* border: 2px solid green; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 70%;
+}
+form input {
+  color: #fff;
+  padding: 10px 40px 10px 10px; /* Adds padding to make room for the icon */
+  background-color: transparent;
+  border: 1px solid #fff; /* White border */
+}
+
+form textarea {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff; /* White border */
+  grid-column: 1 / span 2;
+  height: 150px;
+  padding: 10px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12-18 */
+  color: white;
+}
+
+.date-input {
+  background-image: url("../../assets/calender.png");
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  appearance: none; /* Removes the default appearance */
+  -webkit-appearance: none; /* For Safari */
+  position: relative;
+  padding: 10px 40px 10px 10px; /* Adds padding to make room for the icon */
+  background-color: transparent; /* Ensures the input's background matches */
+  color: #fff;
+  /* White text color */
+  border: 1px solid #fff; /* White border */
+}
+
+.date-input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: block;
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* Custom white icon overlay */
+.date-input:before {
+  background-position: 95% center;
+  fill: white;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  /* Makes the icon non-clickable but allows the input's functionality */
+}
+
+.total-people {
+  background-image: url("../../assets/count.png");
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+
+.book-btn {
+  padding: 10px;
+  background: rgba(254, 191, 0, 1);
+  border: none;
+  width: 45%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+}
+/******** Booking section End ********/
+
+@media only screen and (max-width: 768px) {
+  /*Booking Start*/
+
+  .booking-container {
+    /* background-size: auto;
+  background-position: center; */
+  }
+
+  .booking-container-main {
+    /* margin: 0 auto; */
+    margin: 0;
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .book-btn {
+    padding: 10px;
+    background: rgba(254, 191, 0, 1);
+    border: none;
+    width: 25%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  form textarea {
+    height: 100px;
+    padding: 10px;
+  }
+  /*Booking end*/
+}

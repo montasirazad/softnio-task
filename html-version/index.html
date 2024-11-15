@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Nav start-->
+
+    <div class="responsive-nav-link" id="responsive-menu">
+      <ul>
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="">About</a>
+        </li>
+        <li>
+          <a href="">Portfolio</a>
+        </li>
+        <li>
+          <a href="">Clients</a>
+        </li>
+        <li>
+          <a href="">Blog</a>
+        </li>
+        <li>
+          <a href="">Contact</a>
+        </li>
+        <li>
+          <a href=""><button class="nav-btn">BOOK A TABLE</button></a>
+        </li>
+        <!-- <button class="nav-btn">BOOK A TABLE</button> -->
+      </ul>
+    </div>
+
+    <nav>
+      <div class="nav-main">
+        <div class="logo-div">
+          <img src="./resource/Group.png" alt="logo" />
+          <h1>Restaurant</h1>
+        </div>
+
+        <div class="nav-link">
+          <ul>
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">Portfolio</a>
+            </li>
+            <li>
+              <a href="">Clients</a>
+            </li>
+            <li>
+              <a href="">Blog</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="nav-btn">BOOK A TABLE</button>
+
+      <button class="bar-btn" id="bar-btn">
+        <img src="./resource/bar-menu.png" alt="" />
+        <!-- <a href="*"> </a> -->
+      </button>
+    </nav>
+    <!-- Nav end-->
+
+    <!-- Header start-->
+    <div class="header">
+      <!-- Banner start -->
+      <div class="banner-section">
+        <div class="banner-text-div">
+          <div class="banner-title">
+            <h1>Taste the authentic Saudi cuisine</h1>
+          </div>
+          <div class="banner-detail">
+            <p>
+              Among the best Saudi chefs in the world, serving you something
+              beyond flavor.
+            </p>
+            <button>EXPLORE MENU</button>
+          </div>
+        </div>
+
+        <div class="banner-img">
+          <div class="logo1"></div>
+          <div class="logo2"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Header end-->
+    <div class="about-container">
+      <div class="bell-paper-img">
+        <img
+          src="./resource/top-view-bell-pepper.png"
+          alt="top-view-bell-pepper"
+        />
+      </div>
+      <div class="about-section">
+        <div class="about-img"></div>
+
+        <div class="about-tab">
+          <div>
+            <div class="tab">
+              <button
+                class="tablinks"
+                onclick="openCity(event, 'About')"
+                id="defaultOpen"
+              >
+                About
+              </button>
+              <button class="tablinks" onclick="openCity(event, 'Experience')">
+                Experience
+              </button>
+              <button class="tablinks" onclick="openCity(event, 'Contact')">
+                Contact
+              </button>
+            </div>
+
+            <div id="About" class="tabcontent">
+              <h3>Taste the authentic Saudi cuisine</h3>
+              <p>
+                Saudi Arabian cuisine (Arabic: المطبخ العربي السعودي) varies
+                according to the diverse landscapes and regions of the country.
+                The environmental, geographic, and cultural diversity within
+                this vast area has led to a wide variety of dishes. Saudi Arabia
+                encompasses different regions, resulting in cuisines from the
+                Central region, Eastern, Southern and Western regions.
+              </p>
+            </div>
+
+            <div id="Experience" class="tabcontent">
+              <h3>What Makes for a Great Restaurant Experience?</h3>
+              <p>
+                Do today’s restaurant consumers want great convenience or a
+                great experience? The answer … both. Technomic analysis shows
+                consumers still value experience, even at a time when more than
+                one-third of food purchased from restaurants is consumed
+                elsewhere. With third-party delivery companies handling billions
+                in sales, fine dining grew at a quicker pace than any other
+                restaurant segment in 2018, and is projected to lead again in
+                2019. Such seemingly conflicting data tells a broader story:
+                experience matters, but the definition of what constitutes a
+                great experience is evolving.
+              </p>
+            </div>
+
+            <div id="Contact" class="tabcontent">
+              <h3>LET'S TALK</h3>
+              <p>
+                Email: demo@website.com <br />
+                Phone: 1-800-222-4545 <br />
+                Fax: 1-800-222-4545
+              </p>
+            </div>
+          </div>
+          <div class="about-more">
+            <div><button>ABOUT MORE</button></div>
+            <div class="call-info">
+              <img src="./resource/call-alt.png" alt="call-alt.png" />
+              <p>+88 3426 739 485</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About-container  end-->
+
+    <!-- Badge start -->
+    <div class="badge-container">
+      <div class="badge">
+        <img src="./resource/rectangle.png" alt="rectangle" />
+        <div class="badge-text">
+          <h3>FAST DELIVERY</h3>
+          <p>Within 30 minutes</p>
+        </div>
+      </div>
+      <div class="badge">
+        <img src="./resource/badge.png" alt="badge" />
+        <div class="badge-text">
+          <h3>ABSOLUTE DINING</h3>
+          <p>Best buffet restaurant</p>
+        </div>
+      </div>
+      <div class="badge">
+        <img src="./resource/shopping-bag.png" alt="shopping-bag" />
+
+        <div class="badge-text">
+          <h3>PICKUP DELIVARY</h3>
+          <p>Grab your food order</p>
+        </div>
+      </div>
+    </div>
+    <!-- Badge end -->
+
+    <!-- Popular-food-item-start -->
+    <div class="food-item-container">
+      <div class="food-item-bell-paper-img">
+        <img src="./resource/bell-pepper.png" alt="" />
+      </div>
+
+      <div class="food-item-header">
+        <div class="food-item-info-main">
+          <div class="food-item-info">
+            <div class="food-item-shape"></div>
+            <p>Crispy,Every bite taste</p>
+          </div>
+          <h2>POPULAR FOOD ITEMS</h2>
+        </div>
+        <div class="arrow-logo-container">
+          <div class="arrow-logo-div">
+            <img src="./resource/arrow=left.png" alt="arrow=left" />
+          </div>
+          <div class="arrow-logo-div">
+            <img src="./resource/arrow-right.png" alt="arrow-right" />
+          </div>
+        </div>
+      </div>
+
+      <div class="food-item-card-container">
+        <div class="food-item-card">
+          <img src="./resource/classic-burger.png" alt="" />
+          <div class="line"></div>
+          <h3>vegetables burger</h3>
+          <p>Barbecue Italian cuisine pizza</p>
+        </div>
+
+        <div class="food-item-card">
+          <img src="./resource/pizza.png" alt="" />
+          <div class="line"></div>
+          <h3>Spacial Pizza</h3>
+          <p>Barbecue Italian cuisine pizza</p>
+        </div>
+
+        <div class="food-item-card">
+          <img src="./resource/french-fries.png" alt="" />
+          <div class="line"></div>
+          <h3>Special french fries</h3>
+          <p>Barbecue Italian cuisine</p>
+        </div>
+        <div class="food-item-card">
+          <img src="./resource/fried-shrimp.png" alt="" />
+          <div class="line"></div>
+          <h3>Cuisine Chicken</h3>
+          <p>Japanese Cuisine Chicken</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Popular-food-item-end -->
+
+    <!-- booking-container-start -->
+    <div class="booking-container">
+      <div class="booking-container-main">
+        <div class="book-now-info">
+          <div class="book-now"></div>
+          <p>Book Now</p>
+        </div>
+        <div class="booking-info">
+          <h1>BOOK YOUR TABLE</h1>
+          <p>Enim tempor eget pharetra facilisis sed maecenas adipiscing.</p>
+          <p>Eu leo molestie vel, ornare non id blandit netus.</p>
+        </div>
+
+        <form>
+          <input type="text" placeholder="Your Name *" /><input
+            type="email"
+            placeholder="Your Email"
+          />
+          <input
+            type="text"
+            onfocus="hideIcon(this,1)"
+            placeholder="Reservation Date"
+            class="date-input"
+          />
+          <input
+            type="text"
+            onfocus="hideIcon(this,2)"
+            placeholder="Total People"
+            min="1"
+            class="total-people"
+          />
+          <textarea name="" id="" placeholder="Message"></textarea>
+          <button class="book-btn">BOOK NOW</button>
+        </form>
+      </div>
+    </div>
+    <!-- booking-container-start -->
+
+    <!-- Review section start -->
+
+    <div class="review-item-container">
+      <div class="review-tomato-slice-img">
+        <img src="./resource/tomato-slice.png" alt="" />
+      </div>
+      <div class="review-grass-img">
+        <img src="./resource/grass.png" alt="" />
+      </div>
+      <div class="review-item-header">
+        <div class="review-item-info-main">
+          <div class="review-item-info">
+            <div class="review-item-shape"></div>
+            <p>Crispy,Every bite taste</p>
+          </div>
+          <h2>What Some of my Customers Say</h2>
+        </div>
+        <div class="review-arrow-logo-container">
+          <div class="arrow-logo-div">
+            <img src="./resource/arrow=left.png" alt="arrow=left" />
+          </div>
+          <div class="arrow-logo-div">
+            <img src="./resource/arrow-right.png" alt="arrow-right" />
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card-item-container">
+        <div class="review-card-qoute"></div>
+        <div class="review-card">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/DzSSUU37ynQ?si=pEM6D4G9R6A8Zt9F"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- Review section end -->
+
+    <footer>
+      <div class="footer-container-main">
+        <div class="footer-container">
+          <div class="footer-text">
+            <h1>We ready to have you the best dining experiences</h1>
+          </div>
+          <div class="footer-card-container">
+            <div class="footer-card-detail">
+              <img src="./resource/clock_logo.png" alt="phone_icon" />
+              <h3>OPENING HOURS</h3>
+              <p>Monday - Sunday</p>
+              <p>9:00 AM to 11:30 PM</p>
+            </div>
+
+            <div class="footer-card-detail">
+              <img src="./resource/phone_icon.png" alt="phone_icon" />
+              <h3>LET'S TALK</h3>
+              <p>Phone: 1-800-222-4545</p>
+              <p>Fax: 1-800-222-4545</p>
+            </div>
+
+            <div class="footer-card-detail">
+              <img src="./resource/mail_icon.png" alt="phone_icon" />
+              <h3>BOOK A TABLE</h3>
+              <p>Email: demo@website.com</p>
+              <p>Support: support@website.com</p>
+            </div>
+
+            <div class="footer-card-detail">
+              <img src="./resource/location_pin.png" alt="phone_icon" />
+              <h3>Our Address</h3>
+              <p>123 Stree New York City , United</p>
+              <p>States Of America.</p>
+            </div>
+          </div>
+
+          <div class="social-container">
+            <div class="social-icon">
+              <a href="">
+                <img src="./resource/fb_icon.png" alt="" />
+              </a>
+            </div>
+            <div class="social-icon">
+              <a href="">
+                <img src="./resource/twiter_icon.png" alt="" />
+              </a>
+            </div>
+            <div class="social-icon">
+              <a href="">
+                <img src="./resource/instagram_icon.png" alt="" />
+              </a>
+            </div>
+            <div class="social-icon">
+              <a href="">
+                <img src="./resource/linkedin_icon.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="footer-rights">
+            <p>© 2023 All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

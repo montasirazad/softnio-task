@@ -1,0 +1,186 @@
+.food-item-header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 70%;
+  /* border: 1px solid blue; */
+}
+.food-item-container {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fbf7f2;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.food-item-bell-paper-img {
+  position: absolute;
+  left: 0;
+}
+
+.food-item-bell-paper-img img {
+  width: 80%;
+}
+.food-item-card-container {
+  width: 70%;
+  display: flex;
+  gap: 20px;
+  /* border: 1px solid olivedrab; */
+}
+.food-item-info-main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* border: 1px solid tomato; */
+}
+.food-item-info-main h2 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Bebas Neue", serif;
+}
+.food-item-info {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  /* margin: 20px; */
+}
+.arrow-logo-container {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  /* border: 1px solid red; */
+}
+
+.arrow-logo-div {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 13.64px 0px #0000001a;
+}
+
+.bottom-arrow {
+  display: none;
+}
+.food-item-shape {
+  width: 10px;
+  height: 10px;
+  background-color: #bd1f17;
+  font-family: "Roboto", sans-serif;
+}
+
+.food-item-info p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #bd1f17;
+}
+
+.food-item-card {
+  background-color: white;
+  text-transform: uppercase;
+  width: 250px;
+  height: 250px;
+  /* padding: 30px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.line {
+  width: 20%;
+  height: 3px;
+  background-color: #bd1f17;
+}
+.food-item-card h3 {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+}
+.food-item-card p {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.food-item-card img {
+  width: 120px;
+  height: 100px;
+}
+
+/****** Popular-food-item-end******/
+
+@media only screen and (max-width: 768px) {
+  /* <!-- Popular-food-item-start --> */
+
+  .food-item-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 70%;
+    /* border: 1px solid blue; */
+  }
+  .food-item-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fbf7f2;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  .food-item-bell-paper-img {
+    display: none;
+    /* position: absolute;
+    left: 0; */
+  }
+
+  .food-item-bell-paper-img img {
+    width: 80%;
+  }
+  .food-item-card-container {
+    /* border: 1px solid olivedrab; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .food-item-info-main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* border: 1px solid tomato; */
+  }
+  .food-item-info-main h2 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Bebas Neue", serif;
+  }
+  .food-item-info {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    /* margin: 20px; */
+  }
+  .arrow-logo-container {
+    display: none;
+  }
+
+  /* <!-- Popular-food-item-end --> */
+}

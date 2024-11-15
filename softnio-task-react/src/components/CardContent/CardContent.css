@@ -1,0 +1,21 @@
+.tabcontent {
+  display: block;
+  padding: 6px 12px;
+  border-top: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  /* border: 1px solid #ccc; */
+}
+.tabcontent p {
+  text-align: justify;
+}
+
+.tabcontent h3 {
+  font-family: "Bebas Neue", serif;
+  font-size: 50px;
+  font-weight: 400;
+}

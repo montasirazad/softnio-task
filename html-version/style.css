@@ -1,0 +1,1278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/*...Nav start....*/
+nav {
+  background: rgba(189, 31, 23, 0.9)
+    url("https://s3-alpha-sig.figma.com/img/543a/3190/e709b27bbda0155da5252a80704b546b?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BeGje6OYoWIdY2tTuTB3CO2O6RNlgM5mdWQKW8vmpCUCTFzExTaOzk45cnj3gwohkyw-TM68zOB-39C2bPiiS2wUSI0lj5kktmcS~G0EPhNqFbQwErMJafUHJVwkzg9KYl85mx7yGDrkz8CUGW~T-SmNWmznvIQvT5-h7kp1FP6ydiCGX7m4sTbymjYefzawovcnFYGiA~CTIL8ZB8Re3NSMk~XNOycXNOgi9~gDy0agyt~g65alkR7qz2M3cwaJs-oAZc96K-BhmFPG53HUkDgl~cffjn4v2MdU~8Cn51gagTAVAVLmhRqRnWSym3SNfHMbAlaE~aaYzS38zulaRQ__");
+  background-blend-mode: multiply;
+  background-size: 8%;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 70% 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* margin-left: 15%; */
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 10%;
+  position: relative;
+}
+.nav-link ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link ul li {
+  list-style: none;
+}
+.nav-link ul li a {
+  text-decoration: none;
+  margin-left: 25px;
+  font-family: Poppins;
+  font-size: 28.44px;
+  font-weight: 300;
+  line-height: 28.44px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-size: 15px;
+  font-style: normal;
+  color: white;
+}
+.nav-btn {
+  padding: 10px 15px 10px 15px;
+  opacity: 0px;
+  background: rgba(254, 191, 0, 1);
+  border: none;
+  width: 150px;
+  margin-left: 180px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.responsive-nav-link {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  background-color: #b52b1d;
+  transition: 0.5s;
+  z-index: 15;
+  top: 10%;
+  position: fixed;
+  /* border: 2px solid white; */
+}
+
+.responsive-nav-link ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.responsive-nav-link li {
+  list-style: none;
+}
+.responsive-nav-link ul li a {
+  text-decoration: none;
+  /* margin-left: 25px; */
+  font-family: Poppins;
+  font-size: 28.44px;
+  font-weight: 300;
+  line-height: 28.44px;
+  /* text-align: left;
+  text-underline-position: from-font; */
+  text-decoration-skip-ink: none;
+  font-size: 15px;
+  font-style: normal;
+  color: white;
+}
+.bar-btn {
+  background-color: rgba(189, 31, 23, 0.9);
+  border: none;
+  display: none;
+}
+.logo-div img {
+  width: 30px;
+  height: 30px;
+}
+.logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo-div h1 {
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+/*...Nav end....*/
+
+/*Banner start*/
+.header {
+  background: rgba(189, 31, 23, 0.9)
+    url("https://s3-alpha-sig.figma.com/img/543a/3190/e709b27bbda0155da5252a80704b546b?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BeGje6OYoWIdY2tTuTB3CO2O6RNlgM5mdWQKW8vmpCUCTFzExTaOzk45cnj3gwohkyw-TM68zOB-39C2bPiiS2wUSI0lj5kktmcS~G0EPhNqFbQwErMJafUHJVwkzg9KYl85mx7yGDrkz8CUGW~T-SmNWmznvIQvT5-h7kp1FP6ydiCGX7m4sTbymjYefzawovcnFYGiA~CTIL8ZB8Re3NSMk~XNOycXNOgi9~gDy0agyt~g65alkR7qz2M3cwaJs-oAZc96K-BhmFPG53HUkDgl~cffjn4v2MdU~8Cn51gagTAVAVLmhRqRnWSym3SNfHMbAlaE~aaYzS38zulaRQ__");
+  background-blend-mode: multiply;
+  background-size: 8%;
+  width: auto;
+  padding-bottom: 80px;
+}
+
+.banner-section {
+  width: 78%;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 120px;
+  padding-bottom: 80px;
+  margin-left: 15%;
+  /* border: 1px solid yellow; */
+  position: relative;
+}
+.banner-text-div {
+  /* border: 2px solid blue; */
+  height: 80vh;
+  float: left;
+  position: relative;
+}
+.banner-title {
+  top: 20%;
+  width: 128%;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-right: 20px;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(189, 31, 23, 0) 32.88%,
+    rgba(189, 31, 23, 0.7) 100%
+  );
+  line-height: 130px;
+  z-index: 5;
+  /* border: 2px solid white; */
+}
+.banner-title h1 {
+  font-size: 110px;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+}
+.banner-text-div button {
+  padding: 10px 15px 10px 15px;
+  background: rgba(254, 191, 0, 1);
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 25px;
+}
+.banner-img {
+  background-image: url("resource/image1.png");
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 80vh;
+  /* border: 2px solid green; */
+}
+.banner-detail {
+  position: absolute;
+  top: 70%;
+  padding-left: 40px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+.logo1 {
+  background-image: url("./resource/Vector.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: -4%;
+  top: -5%;
+  /* border: 1px solid greenyellow; */
+}
+.logo2 {
+  position: absolute;
+  background-image: url("./resource/TodayOffer.png");
+  background-color: goldenrod;
+  padding: 50px;
+  border-radius: 50%;
+  background-size: contain;
+  bottom: 0px;
+  right: -8%;
+  /* border: 8px solid goldenrod; */
+}
+
+/** Banner end*/
+
+/* About container start*/
+.about-container {
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+  position: relative;
+  /* border: 3px solid blue; */
+  /* overflow: hidden; */
+}
+.bell-paper-img {
+  position: absolute;
+  top: 50%;
+  right: 80px;
+  width: 100px;
+  height: 100px;
+}
+.about-section {
+  width: 70%;
+  height: auto;
+  display: flex;
+  gap: 70px;
+  margin-left: 18%;
+  /* border: 3px solid blueviolet; */
+}
+
+.about-img {
+  background-image: url("./resource/about-bg.png");
+  width: 700px;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-tab {
+  /* border: 1px solid crimson; */
+  width: 50%;
+  height: 60%;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #b52b1d;
+  /* background-color: #f1f1f1; */
+  width: auto;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 14px;
+  transition: 0.3s;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #b52b1d;
+  color: white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #b52b1d;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  /* border: 1px solid #ccc; */
+}
+.tabcontent p {
+  text-align: justify;
+}
+
+.tabcontent h3 {
+  font-family: "Bebas Neue", serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.about-more {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 30px;
+  /* border: 1px solid red; */
+}
+
+.about-more button {
+  padding: 10px 15px 10px 15px;
+  background: rgba(254, 191, 0, 1);
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.call-info {
+  display: flex;
+  gap: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.call-info img {
+  width: 20px;
+}
+/* About container end*/
+
+/*Badge container start*/
+.badge-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  transform: translateY(-90%);
+  /* border: 1px solid green; */
+}
+.badge {
+  width: 400px;
+  height: 110px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid orangered; */
+}
+.badge-text {
+  display: flex;
+  flex-direction: column;
+}
+.badge-text h3 {
+  font-family: "Bebas Neue", serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.badge-text p {
+  font-family: "Roboto", sans-serif;
+}
+.badge img {
+  width: 100px;
+  height: 100px;
+}
+/*Badge container end*/
+
+/****** Popular-food-item-start******/
+.food-item-header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 70%;
+  /* border: 1px solid blue; */
+}
+.food-item-container {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fbf7f2;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.food-item-bell-paper-img {
+  position: absolute;
+  left: 0;
+}
+
+.food-item-bell-paper-img img {
+  width: 80%;
+}
+.food-item-card-container {
+  width: 70%;
+  display: flex;
+  gap: 20px;
+  /* border: 1px solid olivedrab; */
+}
+.food-item-info-main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* border: 1px solid tomato; */
+}
+.food-item-info-main h2 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Bebas Neue", serif;
+}
+.food-item-info {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  /* margin: 20px; */
+}
+.arrow-logo-container {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  /* border: 1px solid red; */
+}
+
+.arrow-logo-div {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 13.64px 0px #0000001a;
+}
+
+.bottom-arrow {
+  display: none;
+}
+.food-item-shape {
+  width: 10px;
+  height: 10px;
+  background-color: #bd1f17;
+  font-family: "Roboto", sans-serif;
+}
+
+.food-item-info p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #bd1f17;
+}
+
+.food-item-card {
+  background-color: white;
+  text-transform: uppercase;
+  width: 250px;
+  height: 250px;
+  /* padding: 30px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.line {
+  width: 20%;
+  height: 3px;
+  background-color: #bd1f17;
+}
+.food-item-card h3 {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+}
+.food-item-card p {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.food-item-card img {
+  width: 120px;
+  height: 100px;
+}
+
+/****** Popular-food-item-end******/
+
+/******** Booking section start ********/
+
+.booking-container {
+  background: url("https://s3-alpha-sig.figma.com/img/5a88/989c/f8e8eeffdc29691099a68fb261320bfa?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YWv7uc9~~bfu15JHXiJiqB5qxpZll7dzsfqSfksnVBQFDWKwla3saGeC00KSajhAfp31R-h0Hae8m1A1UwV9BM4jLwOYYhaQS9jYNfUxKgNRm0s30yMqimVLBjV4cPeBNq488929t52B3StMaem9D9De5JhUC4kkt4VkCFsf2tKeBV-IO59EflMgQyqcz8POUdO8Vi8kIbD~cRNqQvTK67JbRU65jR~y-991YxV0B6dnxNfoVUJRdNPxLLuop2m0omK5Kn4ovb3SfHVLPlu2SRQds19wxZNZPHUTTYVR1TBmBb6f4Q~-V-XWC-3kBUVrKW~~WOZres56AQe1IMkCYQ__");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+  margin-bottom: 50px;
+  /* margin-top: 25px; */
+  /* border: 1px solid orangered; */
+}
+
+.booking-container-main {
+  margin-left: 18%;
+  margin-top: 5%;
+  padding: 10px;
+  display: grid;
+  position: absolute;
+
+  row-gap: 18px;
+  /* border: 1px solid yellow; */
+  width: auto;
+}
+.book-now-info {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #bd1f17;
+  font-family: "Roboto", sans-serif;
+  /* margin: 20px; */
+}
+.book-now {
+  width: 10px;
+  height: 10px;
+  background-color: #bd1f17;
+  font-family: "Roboto", sans-serif;
+}
+.booking-info {
+  font-family: "Bebas Neue", serif;
+  color: white;
+  font-size: larger;
+  font-weight: 300;
+}
+.booking-info p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+form {
+  /* border: 2px solid green; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 70%;
+}
+form input {
+  color: #fff;
+  padding: 10px 40px 10px 10px; /* Adds padding to make room for the icon */
+  background-color: transparent;
+  border: 1px solid #fff; /* White border */
+}
+
+form textarea {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff; /* White border */
+  grid-column: 1 / span 2;
+  height: 150px;
+  padding: 10px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12-18 */
+  color: white;
+}
+
+.date-input {
+  background-image: url("./resource/calender.png");
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  appearance: none; /* Removes the default appearance */
+  -webkit-appearance: none; /* For Safari */
+  position: relative;
+  padding: 10px 40px 10px 10px; /* Adds padding to make room for the icon */
+  background-color: transparent; /* Ensures the input's background matches */
+  color: #fff;
+  /* White text color */
+  border: 1px solid #fff; /* White border */
+}
+
+.date-input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: block;
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* Custom white icon overlay */
+.date-input:before {
+  content: url("./resource/calender.png");
+  fill: white;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  /* Makes the icon non-clickable but allows the input's functionality */
+}
+
+.total-people {
+  background-image: url("./resource/count.png");
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+
+.book-btn {
+  padding: 10px;
+  background: rgba(254, 191, 0, 1);
+  border: none;
+  width: 45%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+}
+/******** Booking section End ********/
+
+/*Review section start*/
+
+.review-item-container {
+  width: 100%;
+  height: 100vh;
+  /* padding-top: 80px;
+  padding-bottom: 80px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  /* background-color: yellowgreen; */
+}
+
+.review-tomato-slice-img {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 30%;
+}
+
+.review-tomato-slice-img img {
+  width: 25%;
+}
+
+.review-grass-img {
+  position: absolute;
+  top: 40%;
+  right: -5%;
+  z-index: -1;
+}
+
+.review-grass-img img {
+  width: 80%;
+}
+.review-item-header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 70%;
+  margin-bottom: 3%;
+}
+
+.review-item-info-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-item-info-main h2 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Bebas Neue", serif;
+}
+.review-item-info {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.review-arrow-logo-container {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.review-item-shape {
+  width: 10px;
+  height: 10px;
+  background-color: #bd1f17;
+  font-family: "Roboto", sans-serif;
+}
+
+.review-item-info p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #bd1f17;
+}
+
+.review-card {
+  width: 100%;
+  height: 60vh;
+  /* border: 1px solid red; */
+}
+.review-card-item-container {
+  /* border: 5px solid olivedrab; */
+  width: 70%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+
+.review-card-qoute {
+  background: url("./resource/quote.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Review section end*/
+
+/* Footer start*/
+.footer-container-main {
+  background: rgba(0, 0, 0, 0.7)
+    url("https://s3-alpha-sig.figma.com/img/1130/8d6f/f909efb883f56845dcebe7cdc85a607c?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kDmp1rzG4KcE0rcSvJj4odUzgIovysZGMNX5XoQdDfkUwO0NllviV0c5RkW-Zg5tqtzkqvqN-V8WfTIwVMzPcZdZCTw7vUU~w2LuaB13UmH-uKlUHqhgHY6f0jTBD0qPcndEoZ-Gfjh9~08ty0-fWnvWNRRWBvpK~h1m3cufSrXQG2tUOWWcNO6xtdO6vS02E5Z8gMjc1OuuMg3Q7b21g2psMA4SZkYWgdsZ1hwkyt~yzdniUA7VDy2jglaxaEJZqX6bo-SZ7XcRvKAT1LnPfeBtaSAj2aGUBxB5rSX9Om0~YgwR108j5atBUIJbaOfpgggD2lah6q8LbLnQ3pwQ0Q__");
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  background-blend-mode: multiply;
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+}
+.footer-container {
+  margin-left: 18%;
+  width: 78%;
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  overflow: hidden;
+  row-gap: 40px;
+  /* border: 2px solid gray; */
+}
+.footer-text h1 {
+  color: white;
+  font-family: "Bebas Neue", serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+  /* line-height: 64px; */
+  text-align: center;
+}
+.footer-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 8px;
+  /* border: 2px solid red; */
+  /* margin-top: 4%; */
+}
+.footer-card-detail {
+  color: white;
+  text-align: center;
+}
+.footer-card-detail img {
+  width: 20px;
+}
+.footer-card-detail h3 {
+  font-family: "Bebas Neue", serif;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.footer-card-detail p {
+  font-family: "Roboto", sans-serif;
+  margin: 8px;
+  font-size: 15px;
+}
+
+.social-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-icon {
+  margin-right: 15px;
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.footer-rights {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Nav start */
+
+  .responsive-nav-link-toggle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    border: 2px solid white;
+    transition: 0.5s;
+    z-index: 15;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-main {
+    margin: 0;
+  }
+
+  .nav-link ul {
+    display: none;
+  }
+  .responsive-nav-link {
+    display: block;
+  }
+  .bar-btn {
+    display: block;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .nav-btn {
+    padding: 10px 15px 10px 15px;
+    opacity: 0px;
+    background: rgba(254, 191, 0, 1);
+    border: none;
+    width: auto;
+    margin: 0;
+    /* margin-left: 180px; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+  }
+
+  .logo-div img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logo-div h1 {
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  /* Nav end */
+
+  /*Header start*/
+  .header {
+    height: auto;
+    padding: 30px;
+  }
+
+  .banner-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    /* padding: 10px; */
+    margin: 0;
+    /* border: 1px solid yellow; */
+    position: relative;
+  }
+  .banner-text-div {
+    /* border: 2px solid blue; */
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .banner-title {
+    width: 90%;
+    height: auto;
+    padding: 0;
+    /* background: transparent; */
+    line-height: normal;
+  }
+
+  .banner-title h1 {
+    font-size: 50px;
+    color: white;
+  }
+  .banner-text-div button {
+    padding: 10px 15px 10px 15px;
+    background: rgba(254, 191, 0, 1);
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 25px;
+  }
+  .banner-img {
+    background-image: url("resource/image1.png");
+    width: auto;
+    background-size: cover;
+    height: 50vh;
+    margin-top: 40%;
+  }
+  .banner-detail {
+    /* border: 1px solid yellow; */
+    font-size: 24px;
+    margin-top: 55px;
+    padding: 0;
+  }
+  .logo1 {
+    right: -4%;
+    top: -5%;
+  }
+  .logo2 {
+    display: none;
+  }
+
+  /*Header end*/
+
+  /* About container start*/
+  .about-container {
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+  .about-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    /* padding: 10px; */
+    /* border: 3px solid blueviolet; */
+  }
+  .bell-paper-img {
+    display: none;
+  }
+  .about-img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .about-tab {
+    width: 100%;
+  }
+  .about-more {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+  }
+  /* About container end*/
+
+  /*Badge start*/
+  .badge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 0;
+    width: 100%;
+    transform: translateY(0);
+    /* border: 1px solid green; */
+  }
+
+  .badge img {
+    width: 70px;
+    height: 70px;
+  }
+  /*Badge end*/
+
+  /* <!-- Popular-food-item-start --> */
+
+  .food-item-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 70%;
+    /* border: 1px solid blue; */
+  }
+  .food-item-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fbf7f2;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+
+  .food-item-bell-paper-img {
+    display: none;
+    /* position: absolute;
+    left: 0; */
+  }
+
+  .food-item-bell-paper-img img {
+    width: 80%;
+  }
+  .food-item-card-container {
+    /* border: 1px solid olivedrab; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .food-item-info-main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* border: 1px solid tomato; */
+  }
+  .food-item-info-main h2 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Bebas Neue", serif;
+  }
+  .food-item-info {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    /* margin: 20px; */
+  }
+  .arrow-logo-container {
+    display: none;
+  }
+
+  /* <!-- Popular-food-item-end --> */
+
+  /*Booking Start*/
+
+  .booking-container {
+    /* background-size: auto;
+    background-position: center; */
+  }
+
+  .booking-container-main {
+    /* margin: 0 auto; */
+    margin: 0;
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .book-btn {
+    padding: 10px;
+    background: rgba(254, 191, 0, 1);
+    border: none;
+    width: 25%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  form textarea {
+    height: 100px;
+    padding: 10px;
+  }
+  /*Booking end*/
+  /* <!-- Review section start --> */
+
+  .review-item-container {
+    width: 100%;
+    height: 150vh;
+    /* padding-top: 80px;
+    padding-bottom: 80px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    /* background-color: yellowgreen; */
+  }
+
+  .review-tomato-slice-img {
+    display: none;
+  }
+
+  .review-tomato-slice-img img {
+    width: 25%;
+  }
+
+  .review-grass-img {
+    /* position: absolute;
+    top: 40%;
+    right: -5%;
+    z-index: -1; */
+    display: none;
+  }
+
+  .review-grass-img img {
+  }
+  .review-item-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 70%;
+    /* margin-bottom: 3%; */
+  }
+
+  .review-item-info-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .review-item-info-main h2 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Bebas Neue", serif;
+  }
+  .review-item-info {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  .review-arrow-logo-container {
+    display: none;
+  }
+
+  .review-card {
+    height: 400px;
+    width: 100%;
+    /* width: 100%;
+    height: 60vh; */
+    /* border: 1px solid red; */
+  }
+  .review-card-item-container {
+    /* border: 5px solid olivedrab; */
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    /* padding: 20px; */
+  }
+
+  .review-card-qoute {
+    background: url("./resource/quote.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: auto;
+  }
+
+  /* <!-- Review section end --> */
+
+  /*Footer*/
+
+  .footer-container-main {
+    height: 175vh;
+  }
+  .footer-text h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .footer-container {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .footer-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-card-detail {
+    color: white;
+    text-align: center;
+    margin: 8px;
+  }
+  .footer-card-detail img {
+    width: 20px;
+  }
+  .footer-card-detail h3 {
+    font-family: "Bebas Neue", serif;
+    font-weight: 100;
+    font-size: 20px;
+  }
+
+  .footer-card-detail p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+  }
+
+  .social-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social-icon {
+    margin-right: 15px;
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .social-icon img {
+    width: 15px;
+  }
+
+  .footer-rights p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+}

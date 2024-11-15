@@ -1,0 +1,192 @@
+/*Review section start*/
+
+.review-item-container {
+  width: 100%;
+  height: 100vh;
+  /* padding-top: 80px;
+    padding-bottom: 80px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  /* background-color: yellowgreen; */
+}
+
+.review-tomato-slice-img {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 30%;
+}
+
+.review-tomato-slice-img img {
+  width: 25%;
+}
+
+.review-grass-img {
+  position: absolute;
+  top: 40%;
+  right: -5%;
+  z-index: -1;
+}
+
+.review-grass-img img {
+  width: 80%;
+}
+.review-item-header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 70%;
+  margin-bottom: 3%;
+}
+
+.review-item-info-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-item-info-main h2 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Bebas Neue", serif;
+}
+.review-item-info {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.review-arrow-logo-container {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.review-item-shape {
+  width: 10px;
+  height: 10px;
+  background-color: #bd1f17;
+  font-family: "Roboto", sans-serif;
+}
+
+.review-item-info p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #bd1f17;
+}
+
+.review-card {
+  width: 100%;
+  height: 60vh;
+  /* border: 1px solid red; */
+}
+.review-card-item-container {
+  /* border: 5px solid olivedrab; */
+  width: 70%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+
+.review-card-qoute {
+  background: url("../../assets/quote.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Review section end*/
+
+@media only screen and (max-width: 768px) {
+  /* <!-- Review section start --> */
+
+  .review-item-container {
+    width: 100%;
+    height: 150vh;
+    /* padding-top: 80px;
+    padding-bottom: 80px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    /* background-color: yellowgreen; */
+  }
+
+  .review-tomato-slice-img {
+    display: none;
+  }
+
+  .review-tomato-slice-img img {
+    width: 25%;
+  }
+
+  .review-grass-img {
+    /* position: absolute;
+    top: 40%;
+    right: -5%;
+    z-index: -1; */
+    display: none;
+  }
+
+  .review-grass-img img {
+  }
+  .review-item-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 70%;
+    /* margin-bottom: 3%; */
+  }
+
+  .review-item-info-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .review-item-info-main h2 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Bebas Neue", serif;
+  }
+  .review-item-info {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  .review-arrow-logo-container {
+    display: none;
+  }
+
+  .review-card {
+    height: 400px;
+    width: 100%;
+    /* width: 100%;
+    height: 60vh; */
+    /* border: 1px solid red; */
+  }
+  .review-card-item-container {
+    /* border: 5px solid olivedrab; */
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    /* padding: 20px; */
+  }
+
+  .review-card-qoute {
+    background: url("../../assets/quote.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: auto;
+  }
+
+  /* <!-- Review section end --> */
+}

@@ -1,0 +1,53 @@
+.badge-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  transform: translateY(-90%);
+  /* border: 1px solid green; */
+}
+.badge {
+  width: 400px;
+  height: 110px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid orangered; */
+}
+.badge-text {
+  display: flex;
+  flex-direction: column;
+}
+.badge-text h3 {
+  font-family: "Bebas Neue", serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.badge-text p {
+  font-family: "Roboto", sans-serif;
+}
+.badge img {
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  /*Badge start*/
+  .badge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 0;
+    width: 100%;
+    transform: translateY(0);
+    /* border: 1px solid green; */
+  }
+
+  .badge img {
+    width: 70px;
+    height: 70px;
+  }
+  /*Badge end*/
+}
