@@ -1,6 +1,8 @@
 # Assignment For Front-End Engineer – Fresher
 
-### Any external css library or framework is not used in both version.
+### Assignment specification
+
+<p style='color:white;background-color:"orangered"'>Any external css library or framework is not used in both version.</p>
 
 ## How to run
 
