@@ -1,8 +1,30 @@
-# React + Vite
+# Assignment For Front-End Engineer – Fresher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to run
 
-Currently, two official plugins are available:
+First Login to the GitHub account to access this repository.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone this repository -
+
+```sh
+git clone https://github.com/montasirazad/softnio-task
+```
+
+
+### For React version
+
+Run these commands in your terminal
+
+```sh
+cd softnio-task-react
+```
+
+```sh
+npm i
+```
+
+```sh
+npm run dev
+```
+
+Live link of React version: https://spontaneous-souffle-247c4e.netlify.app/
